@@ -4,10 +4,49 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Project: Rock Paper Scissors</title>
+		<title>Project: Rock, Paper, Scissors 02</title>
+		<link
+			rel="stylesheet"
+			href="node_modules/normalize.css/normalize.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Project: Rock Paper Scissors</h1>
-        <script src="index.js"></script>
+		<header>
+			<h1>Rock Paper Scissors</h1>
+		</header>
+
+		<div id="main">
+			<div id="scoreboard">
+				<div id="user-label" class="badge">user</div>
+				<div id="computer-label" class="badge">comp</div>
+				<span id="user-score">0</span> :
+				<span id="computer-score">0</span>
+			</div>
+
+			<div id="results">
+				<span id="hands-picked">✋🏿 beats ✊🏿.</span>
+				<br />
+				<span id="conclusion">You win!</span>
+
+				<!-- 
+					✊🏿 crushes ✌🏿
+					✋🏿 covers ✊🏿
+					✌🏿 cuts ✋🏿
+					✊🏿 coverd by ✋🏿
+					✋🏿 cut by ✌🏿
+					✌🏿 crushed by ✊🏿
+				 -->
+			</div>
+
+			<div id="choices">
+				<div id="rock" class="button">✌🏿</div>
+				<div id="paper" class="button">✊🏿</div>
+				<div id="scissors" class="button">✋🏿</div>
+			</div>
+
+			<div id="callToAcation">Make Your Move</div>
+		</div>
+		<script src="app.js"></script>
 	</body>
 </html>

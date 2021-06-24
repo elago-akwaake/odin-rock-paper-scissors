@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;500;700&family=Roboto&display=swap');
+
+html {
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-weight: 500;
+    background-color: teal;
+    color: whitesmoke;
+}
+
+/* 01 GAME CONTAINERS */
+header {
+    margin: 0 auto;
+    padding: .5em;
+    background-color: white;
+    color: black;
+}
+
+#main {
+    height: 100%;
+    padding: 2em 1em;
+}
+
+/* 02 GAME */
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+#scoreboard {
+    width: 200px;
+    margin: 0 auto;
+    padding: .15em .2em;
+    border: 4px solid whitesmoke;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.6rem;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    padding: .1em;
+    background-color: red;
+    position: absolute;
+    font-size: 1rem;
+}
+
+#user-label {
+    top: 35px;
+    left: -20px;
+}
+
+#computer-label {
+    top: 35px;
+    right: -30px;
+}
+
+#results {
+    margin: 1em auto 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#choices {
+    margin: 1.5em auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 4rem;
+    margin: 0 .1em;
+    padding: .2em;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    margin: 0 .2em
+}
+
+.green-glow {
+    border-color: darkgreen;
+    box-shadow: 0 0 10px green;
+}
+
+.red-glow {
+    border-color: darkred;
+    box-shadow: 0 0 10px red;
+}
+
+#callToAcation {
+    margin-top: 1.2em;
+    text-align: center;
+    font-size: 1.7rem;
+}
