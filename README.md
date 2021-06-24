@@ -1,4 +1,4 @@
 # Rock Paper Scissors
 A simple implementation of grade-school classic “rock paper scissors”.
 
-[Live prview](https://www.google.com)
+[Live preview](https://elago-akwaake.github.io/rock-paper-scissors/)
